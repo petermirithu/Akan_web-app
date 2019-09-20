@@ -44,7 +44,6 @@ var months=new makeArray(12)
  femaleNames[4]="Yaa"
  femaleNames[5]="Afua"
  femaleNames[6]="Ama"
- 
 
 
 function validate() {
