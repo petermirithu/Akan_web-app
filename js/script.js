@@ -76,10 +76,13 @@ function validate() {
   var var2 = parseInt(year/4, 10) 
   var var3 = parseInt(year/100, 10)
   var var4 = parseInt(year/400, 10)
-  var var5 = date+(month2*2)+val1+year+val2-val3+val4+2
+  var var5 = date+(month2*2)+var1+year+var2-var3+var4+2
   var var6 = parseInt(var5/7, 10)
   var var7 = val5-(var6*7)
 
   var formResult1 = months[month]+" "+document.forms["akan"]["date"] .value +", "+document.forms["akan"]["year"] .value
-  var formResult2 = days[val7]
+  var formResult2 = days[var7]
+  alert(formResult1)
+  alert(formResult2)
 }
+
