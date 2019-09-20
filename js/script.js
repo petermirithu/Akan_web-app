@@ -56,9 +56,14 @@ function validate() {
   if ((month <0) || (month >12)) {
     alert("Month is out of Range!!!")
   };
-
   
-  var year= parseInt(document.forms["akan"]["year"] .value);
+  var month2=parseInt(document.forms["akan"]["month"] .value);
+
+  var year= parseInt(document.forms["akan"]["year"] .value)
+  if (year <1000) {
+    alert("The year is past whats expected.")
+  }
+
   var result=date, month, year ;
   alert(result);
 };
