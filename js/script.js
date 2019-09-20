@@ -62,24 +62,24 @@ function validate() {
   var year= parseInt(document.forms["akan"]["year"] .value, 10)
   if (year <1000) {
     alert("The year is past whats expected.")
-  }
+  };
 
   if (month === 1) {
     month2 = 13;
     year = year-1
-  }
+  };
   if (month===2) {
     month2 = 14;
     year = year-1
-  }
+  };
   var var1 = parseInt(((month2+1)*3)/5, 10)
   var var2 = parseInt(year/4, 10) 
   var var3 = parseInt(year/100, 10)
   var var4 = parseInt(year/400, 10)
   var var5 = date+(month2*2)+val1+year+val2-val3+val4+2
-  
+  var var6 = parseInt(var5/7, 10)
+  var var7 = val5-(var6*7)
 
-
-  var result=date, month, year ;
-  alert(result);
-};
+  var formResult1 = months[month]+" "+document.forms["akan"]["date"] .value +", "+document.forms["akan"]["year"] .value
+  var formResult2 = days[val7]
+}
