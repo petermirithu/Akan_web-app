@@ -2,6 +2,7 @@
 <html>
   <head>
     <title>Akan_Web-App</title>
+    <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
     <link href="css/styles.css" rel="stylesheet" type="text/css">
@@ -10,15 +11,17 @@
   <body>
     <h1>Welcome to Akan_Web-Page</h1>
 
-    <form name="akan" onsubmit="validate()">
+    <form>
       <label for="date">Date</label>
-      <input class="date" name="date"  value=""> <br>
+      <input  name="day"  type="text"> <br>
       <label for="month">Month</label>
-      <input class="month" name="month" value=""> <br>
+      <input name="month" type="text"> <br>
       <label for="year">Year</label>
-      <input class="year" name="year" value=""><br>
-      <input class="block" type="submit" value="Submit Your Answers." on click="validate()">
+      <input name="year" type="text"><br>
+      <input class="block" type="submit" value="Submit Your Answers." onclick="validate(this.form)">
 
+      <p>Date of birth: <input type="text" name="result1" size="18"> </p>
+      <p>day of the week: <input type="text" name="result2" size="18"> </p>
     </form>
   </body>
 </html>
