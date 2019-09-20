@@ -56,6 +56,7 @@ function validate() {
   if ((month <0) || (month >12)) {
     alert("Month is out of Range!!!")
   };
+  
   var year= parseInt(document.forms["akan"]["year"] .value);
   var result=date, month, year ;
   alert(result);
