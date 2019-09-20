@@ -47,8 +47,15 @@ var months=new makeArray(12)
 
 
 function validate() {
-  var date= parseInt(document.forms["akan"]["date"] .value);
-  var month= parseInt(document.forms["akan"]["month"] .value);
+  var date= parseInt(document.forms["akan"]["date"] .value)
+  if ((date < 0) || (date >31)) {
+    alert("Day is out of Range!!!")
+  };
+
+  var month= parseInt(document.forms["akan"]["month"] .value)
+  if ((month <0) || (month >12)) {
+    alert("Month is out of Range!!!")
+  };
   var year= parseInt(document.forms["akan"]["year"] .value);
   var result=date, month, year ;
   alert(result);
