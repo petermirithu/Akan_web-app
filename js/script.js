@@ -76,7 +76,8 @@ function validate() {
   var var2 = parseInt(year/4, 10) 
   var var3 = parseInt(year/100, 10)
   var var4 = parseInt(year/400, 10)
-  var var5 = 
+  var var5 = date+(month2*2)+val1+year+val2-val3+val4+2
+  
 
 
   var result=date, month, year ;
