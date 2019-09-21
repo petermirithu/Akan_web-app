@@ -53,20 +53,6 @@ img {vertical-align: middle;}
   animation-duration: 1.5s;
 }
 
-@-webkit-keyframes fade {
-  from {opacity: .4} 
-  to {opacity: 1}
-}
-
-@keyframes fade {
-  from {opacity: .4} 
-  to {opacity: 1}
-}
-
-
-@media only screen and (max-width: 300px) {
-  .text {font-size: 11px}
-}
 .bd {
   margin-top: 10%;
 }
@@ -187,4 +173,37 @@ form {
 }
 .dob,.dow{
   float: right;
+}
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+
+@media only screen and (max-width: 300px) {
+  .text {font-size: 11px}
+}
+@media only screen and (max-width: 500px) {
+  .headtab1,.headtab2 {
+    overflow: hidden;
+    position: fixed; 
+    top: 0; 
+    width: 100%;
+    z-index: 1;
+    height: 7%;
+  }
+  nav{
+    width: 20%;
+    height: 20%;
+  }
+  .block2{
+    width: 20%;
+    height: 20%;
+    font-size: 10px;
+  }
 }
