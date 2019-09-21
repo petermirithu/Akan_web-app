@@ -1,21 +1,21 @@
 
-//  var maleNames
-//  maleNames[0]="Kwasi"
-//  maleNames[1]="Kwadwo"
-//  maleNames[2]="Kwabena"
-//  maleNames[3]="Kwaku"
-//  maleNames[4]="Yaw"
-//  maleNames[5]="Kofi"
-//  maleNames[6]="Kwame"
+var maleNames=
+ maleNames[0]="Kwasi"
+ maleNames[1]="Kwadwo"
+ maleNames[2]="Kwabena"
+ maleNames[3]="Kwaku"
+ maleNames[4]="Yaw"
+ maleNames[5]="Kofi"
+ maleNames[6]="Kwame"
 
-//  var femaleNames
-//  femaleNames[0]="Akosua"
-//  femaleNames[1]="Adwoa"
-//  femaleNames[2]="Abenaa"
-//  femaleNames[3]="Akau"
-//  femaleNames[4]="Yaa"
-//  femaleNames[5]="Afua"
-//  femaleNames[6]="Ama"
+ var femaleNames=
+ femaleNames[0]="Akosua"
+ femaleNames[1]="Adwoa"
+ femaleNames[2]="Abenaa"
+ femaleNames[3]="Akau"
+ femaleNames[4]="Yaa"
+ femaleNames[5]="Afua"
+ femaleNames[6]="Ama"
 
 function MakeArray(n) {
   this.length = n;
@@ -51,10 +51,12 @@ function validate(form) {
   if ((val1 <=0) || (val1 > 31)) {
      alert("The Date your entered Doesn't Exist!!!")
   }
+
   var val2 = parseInt(form.month.value, 10)
   if ((val2 <=0) || (val2 > 12)) {
      alert("The Month you entered Doesn't Exist!!!")
   }  
+
   var val2x = parseInt(form.month.value, 10)
   var today= new Date();
   var year3= today.getFullYear();
@@ -77,7 +79,18 @@ function validate(form) {
   var val8 = val1+(val2x*2)+val4+val3+val5-val6+val7+2
   var val9 = parseInt(val8/7, 10)
   var val0 = val8-(val9*7)
+
   form.result1.value = months[val2]+" "+form.day.value +", "+form.year.value
   form.result2.value = days[val0]
+
+  
+
+
+
+
+
+
+
 }   
+
 

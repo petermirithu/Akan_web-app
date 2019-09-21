@@ -11,11 +11,16 @@
     <h1>Welcome to Akan_Web-Page</h1>
 
     <form>
-      <label for="date">Date</label>
+      <label for="name">Name:</label>
+      <input type="text" name="name"> <br>
+      <label for="gender">Gender:</label>
+      <p>Male <input type="radio" name="gender" value="Male"> </p> <br>
+      <p>Female <input type="radio" name="gender" value="Female"> </p> <br>
+      <label for="date">Date:</label>
       <input  name="day"  type="text"> <br>
-      <label for="month">Month</label>
+      <label for="month">Month:</label>
       <input name="month" type="text"> <br>
-      <label for="year">Year</label>
+      <label for="year">Year:</label>
       <input name="year" type="text"><br>
       <input type="button" value="Update" onclick="validate(this.form)">
       <input class="block2" type="reset" value="Clear">
