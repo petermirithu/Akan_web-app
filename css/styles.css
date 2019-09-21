@@ -1,3 +1,30 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+.body2 {
+  background-image: url(../images/gril.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
 .block2 {
   padding-left: 10%; 
+}
+.h1-2 {
+  color: gold
+}
+form {
+  color:white;
+  
+
 }
