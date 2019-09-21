@@ -1,22 +1,8 @@
 
-var maleNames=
- maleNames[0]="Kwasi"
- maleNames[1]="Kwadwo"
- maleNames[2]="Kwabena"
- maleNames[3]="Kwaku"
- maleNames[4]="Yaw"
- maleNames[5]="Kofi"
- maleNames[6]="Kwame"
-
- var femaleNames=
- femaleNames[0]="Akosua"
- femaleNames[1]="Adwoa"
- femaleNames[2]="Abenaa"
- femaleNames[3]="Akau"
- femaleNames[4]="Yaa"
- femaleNames[5]="Afua"
- femaleNames[6]="Ama"
-
+var maleNames=["Kwame","Kwasi", "Kwadwo","Kwabena", "Kwaku", "Yaw", "Kofi"]
+ 
+var femaleNames=[ "Ama","Akosua", "Adwoa","Abenaa", "Akau","Yaa", "Afua"]
+ 
 function MakeArray(n) {
   this.length = n;
   for (var i = 1; i <=n; i++) {
