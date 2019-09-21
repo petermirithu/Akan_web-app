@@ -46,6 +46,7 @@ function validate() {
   var today= new Date();
   var year3= today.getFullYear();
   var val3 = parseInt(form.year.value, 10)
+
   if ((val3 < 1000) || (val3 > year3)) {
      alert("The year way past whats expected!!!")
   }
@@ -65,6 +66,7 @@ function validate() {
   var val9 = parseInt(val8/7, 10)
   var val0 = val8-(val9*7)
 
+  var name1 = form.name.value;
   var akanName = ""
   var gender = form.gender.value;
   if (gender==="Male") {
@@ -74,18 +76,11 @@ function validate() {
   } else {
     alert("Invalid Input!!!")
   }
-  form.akan.value = akanName
+
+  form.akan.value =name1+". "+"Your Akan name is: "+akanName
 
   form.result1.value = months[val2]+" "+form.day.value +", "+form.year.value
   form.result2.value = days[val0]
-
-  
-
-
-
-
-
-
 
 }   
 
