@@ -5,8 +5,8 @@ img {vertical-align: middle;}
 
 
 .slideshow-container {
-  max-width: 1000px;
-  position: fixed;
+  width: 100%;
+  position: relative;
   margin: auto;
 }
 
@@ -67,7 +67,7 @@ img {vertical-align: middle;}
   .text {font-size: 11px}
 }
 .bd {
-  margin-top: 23%;
+  margin-top: 10%;
 }
 .body1 {
   background-image: url("../images/coolsimpl.jpg");
