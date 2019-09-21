@@ -79,14 +79,13 @@ img {vertical-align: middle;}
   background-size: cover;
   background-repeat: no-repeat;
   z-index: 1;
-  height: 10%;
+  height: 8%;
 }
 .headtab1 a {
   float: left;
   display: block;
   color: #f2f2f2;
   text-align: center;
-  padding: 14px 16px;
   text-decoration: none;
 }
 .headtab1 a:hover {
@@ -123,8 +122,27 @@ li{
 .get {
   color: greenyellow;
 }
-
-
+.headtab2 {    
+  overflow: hidden;
+  position: fixed; 
+  top: 0; 
+  width: 100%;
+  background-image: url(../images/gril.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  z-index: 1;
+  height: 10%;
+}
+.headtab2 a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-decoration: none;
+}
+.headtab2 a:hover {
+  background:gold;
+  color: black;
+}
 
 
 
@@ -136,7 +154,7 @@ li{
 
 
 .body2 {
-  background-image: url(../images/gril.jpg);
+  background-image: url(../images/coolsimpl.jpg);
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -144,11 +162,15 @@ li{
 .block2 {
   padding-left: 10%; 
 }
-.h1-2 {
-  color: gold
+#h1-2 {
+  color: gold;
+  padding-top: 8%;
 }
 form {
   color:white;
-  
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background-image: url("../images/brek.jpg");  
+  background-repeat: no-repeat;
+  background-size: cover;
 
 }
