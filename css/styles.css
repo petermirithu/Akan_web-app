@@ -172,5 +172,6 @@ form {
   background-image: url("../images/brek.jpg");  
   background-repeat: no-repeat;
   background-size: cover;
+  opacity: 0.8;
 
 }
