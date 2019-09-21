@@ -12,21 +12,21 @@
 
     <form name="form" onsubmit="validate()">
       <label for="name">Name:</label>
-      <input type="text" name="name" class=""> <br>
+      <input type="text" name="name" class="name"> <br>
       <label for="gender">Gender:</label>
-      <p>Male <input type="radio" name="gender" value="Male"> </p> <br>
-      <p>Female <input type="radio" name="gender" value="Female"> </p> <br>
+      <p>Male <input type="radio" name="gender" value="Male" class="radio1"> </p> <br>
+      <p>Female <input type="radio" name="gender" value="Female" class="radio2"> </p> <br>
       <label for="date">Date:</label>
-      <input  name="day"  type="text"> <br>
+      <input  name="day"  type="text" class="day"> <br>
       <label for="month">Month:</label>
-      <input name="month" type="text"> <br>
+      <input name="month" type="text" class="month"> <br>
       <label for="year">Year:</label>
-      <input name="year" type="text"><br>
-      <input type="button" value="Update" onclick="validate()">
-      <input class="block2" type="reset" value="Clear">
-      <p>Date of birth: <input type="text" name="result1" size="18"> </p>
-      <p>Day of the week: <input type="text" name="result2" size="18"> </p>
-      <p>Congratulations: <input type="text" name="akan" size="30"> </p>
+      <input name="year" type="text" class="year"><br>
+      <input type="image" src="images/updategold.jpeg" width="10%" height="10%" value="Update" class="block1" onclick="validate()">
+      <input class="block2" type="image" src="images/resetgold.jpeg" width="10%" height="10%" value="reset">
+      <p>Date of birth: <input type="text" name="result1" size="18" class="dob"> </p>
+      <p>Day of the week: <input type="text" name="result2" size="18" class="dow"> </p>
+      <p>Congratulations: <input type="text" name="akan" size="30" class="akan"> </p>
     </form>
   </body>
 </html>
