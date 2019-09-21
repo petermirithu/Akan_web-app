@@ -18,7 +18,7 @@
       </header>
     <h1 id="h1-2">Welcome to Akan_Web-App</h1>
 
-    <form name="form" onsubmit="validate()">
+    <form name="form" onsubmit="event.preventDefault(); validate()">
       <label for="name">Name:</label>
       <input type="text" name="name" class="name"> <br>
       <label for="gender">Gender:</label>
@@ -27,11 +27,11 @@
       <label for="date">Date:</label>
       <input  name="day"  type="text" class="day"> <br>
       <label for="month">Month:</label>
-      <input name="month" type="text" class="month"> <br>
+      <input name="month" type="text" class="month" size="19"> <br>
       <label for="year">Year:</label>
       <input name="year" type="text" class="year"><br>
-      <input type="image" src="images/updategold.jpeg" width="10%" height="10%" value="Update" class="block1" onclick="validate()">
-      <input class="block2" type="image" src="images/resetgold.jpeg" width="10%" height="10%" value="reset">
+      <input type="image" src="images/updategold.jpeg" width="10%" height="10%" class="block1" onclick="validate()">
+      <!-- <input class="block2" type="image" src="images/resetgold.jpeg" width="10%" height="10%" value="reset"> -->
       <p>Date of birth: <input type="text" name="result1" size="18" class="dob"> </p>
       <p>Day of the week: <input type="text" name="result2" size="18" class="dow"> </p>
       <p>Congratulations: <input type="text" name="akan" size="30" class="akan"> </p>

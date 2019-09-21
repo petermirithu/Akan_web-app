@@ -143,16 +143,6 @@ li{
   background:gold;
   color: black;
 }
-
-
-
-
-
-
-
-
-
-
 .body2 {
   background-image: url(../images/coolsimpl.jpg);
   background-repeat: no-repeat;
@@ -173,5 +163,12 @@ form {
   background-repeat: no-repeat;
   background-size: cover;
   opacity: 0.8;
-
+}
+.name,.radio1,.radio2,.day,.month,.year,.dob,.dow {
+  margin: 10px;
+}
+.akan {
+  height: 30px;
+  color: gold;
+  background-image: url("../images/jsjqwallpp.jpg");
 }
