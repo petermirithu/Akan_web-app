@@ -9,8 +9,8 @@
   </head>
   <body>
     <h1>Welcome to Akan_Web-Page</h1>
-    
-    <form>
+
+    <form name="form" onsubmit="validate()">
       <label for="name">Name:</label>
       <input type="text" name="name"> <br>
       <label for="gender">Gender:</label>
@@ -22,12 +22,11 @@
       <input name="month" type="text"> <br>
       <label for="year">Year:</label>
       <input name="year" type="text"><br>
-      <input type="button" value="Update" onclick="validate(this.form)">
+      <input type="button" value="Update" onclick="validate()">
       <input class="block2" type="reset" value="Clear">
       <p>Date of birth: <input type="text" name="result1" size="18"> </p>
       <p>Day of the week: <input type="text" name="result2" size="18"> </p>
-
-      <p>Your Akan Name is: <input type="text" name="akan-name" size="18"> </p>
+      <p>Your Akan Name is: <input type="text" name="akan" size="18"> </p>
     </form>
   </body>
 </html>
