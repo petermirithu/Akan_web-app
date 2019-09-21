@@ -5,84 +5,117 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Akan_Web-App</title>
     <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <script src="js/script.js"></script>
   </head>
-  <body class="body1">
-      <header>
-          <div class="headtab1">
-              <nav>                  
-                  <a href =""><img src="images/home.jpeg" alt="Home" width="20%"></a>                
-                  <a href="#h2-3"><img src="images/about.png" alt="About" width=20%></a>
-              </nav>
-          </div>        
-      </header>
-      <h1 class="head">AKAN_WEB-APP.</h1>          
-      <div class="slideshow-container">      
-        <div class="mySlides fade">
-          <div class="numbertext">1 / 3</div>
-          <img src="images/females.jpeg" style="width:40%">
-          <div class="text">Caption One</div>
-        </div>      
-        <div class="mySlides fade">
-          <div class="numbertext">2 / 3</div>
-          <img src="images/kwasi.jpeg" style="width:38.3%">
-          <div class="text">Caption Two</div>
-        </div>      
-        <div class="mySlides fade">
-          <div class="numbertext">3 / 3</div>
-          <img src="images/kofi.jpeg" style="width:25.15%">
-          <div class="text">Caption Three</div>
-        </div>      
-      </div>
-      <br>    
-      <div style="text-align:center">
-        <span class="dot"></span> 
-        <span class="dot"></span> 
-        <span class="dot"></span> 
-      </div>
-      
-      <script>
-      var slideIndex = 0;
-      showSlides();
-      
-      function showSlides() {
-        var i;
-        var slides = document.getElementsByClassName("mySlides");
-        var dots = document.getElementsByClassName("dot");
-        for (i = 0; i < slides.length; i++) {
-          slides[i].style.display = "none";  
-        }
-        slideIndex++;
-        if (slideIndex > slides.length) {slideIndex = 1}    
-        for (i = 0; i < dots.length; i++) {
-          dots[i].className = dots[i].className.replace(" active", "");
-        }
-        slides[slideIndex-1].style.display = "block";  
-        dots[slideIndex-1].className += " active";
-        setTimeout(showSlides, 2000);
-      }
-      </script>
-      <div class="bd">
-        <h2 class="h2-1">Welcome.</h2>
-        <p>Its a privilege and pleasure to extent a warm welcome to you on landing on my great home page for <em>Akan_Web-App.</em></p>
-        <h2 class="h2-2">What Akan_Web-App Offers.</h2>
-        <p>This application involves picking up someone's birth date, month and year and :<br>
-          <ul>
-            <li>Calculate and display the day of the week one was born.</li>
-            <li>Give you an Akan name based on one's gender and day of the week one was born.</li>
-          </ul></p>
-          <p class="get">Click the button to get started:
-              <a href ="file:///home/pyra/akan-web-app/akan.html?name=&day=&month=&year=&x=78&y=53&result1=undefined+%2C+&result2=undefined&akan=.+Your+Akan+name+is%3A+"><img src="images/getstarted2.jpeg" alt="getstarted" width="10%"></a>
-          </p>
+  <body>
+    <div class="bodybg0">
+      <div class="body1">
+          <header>
+              <div class="headtab1">
+                  <nav>                  
+                      <a href =""><img src="images/home.jpeg" alt="Home" width="20%"></a>                
+                      <a href="#bd"><img src="images/about.png" alt="About" width= "25%"></a>
+                      <a href ="#body2"><img src="images/getstarted2.jpeg" alt="getstarted" width="25%"></a>
+                  </nav>
+              </div>        
+          </header>
+          <h1 class="head">AKAN_WEB-APP.</h1>          
+          <div class="slideshow-container">      
+            <div class="mySlides fade">
+              <div class="numbertext">1 / 3</div>
+              <img src="images/females.jpeg" style="width:40%">
+              <div class="text"></div>
+            </div>      
+            <div class="mySlides fade">
+              <div class="numbertext">2 / 3</div>
+              <img src="images/kwasi.jpeg" style="width:38.3%">
+              <div class="text"></div>
+            </div>      
+            <div class="mySlides fade">
+              <div class="numbertext">3 / 3</div>
+              <img src="images/kofi.jpeg" style="width:25.15%">
+              <div class="text"></div>
+            </div>      
+          </div>
+          <br>    
+          <div style="text-align:center">
+            <span class="dot"></span> 
+            <span class="dot"></span> 
+            <span class="dot"></span> 
+          </div>
+          
+          <script>
+          var slideIndex = 0;
+          showSlides();
+          
+          function showSlides() {
+            var i;
+            var slides = document.getElementsByClassName("mySlides");
+            var dots = document.getElementsByClassName("dot");
+            for (i = 0; i < slides.length; i++) {
+              slides[i].style.display = "none";  
+            }
+            slideIndex++;
+            if (slideIndex > slides.length) {slideIndex = 1}    
+            for (i = 0; i < dots.length; i++) {
+              dots[i].className = dots[i].className.replace(" active", "");
+            }
+            slides[slideIndex-1].style.display = "block";  
+            dots[slideIndex-1].className += " active";
+            setTimeout(showSlides, 2000);
+          }
+          </script>
+          <div id="bd">
+            <h2 class="h2-1">Welcome.</h2>
+            <p>Its a privilege and pleasure to extent a warm welcome to you on landing on my great home page for <em>Akan_Web-App.</em></p>
+            <h2 class="h2-2">What Akan_Web-App Offers.</h2>
+            <p>This application involves picking up someone's birth date, month and year and :<br>
+              <ul>
+                <li>Calculate and display the day of the week one was born.</li>
+                <li>Give you an Akan name based on one's gender and day of the week one was born.</li>
+              </ul></p>
+              <p class="get">Click the button to get started:
+                  <a href ="#body2"><img src="images/getstarted2.jpeg" alt="getstarted" width="10%"></a>
+              </p>
 
-          <h2 id="h2-3">About Akan Names.</h2> 
-          <p>The Akan people of Ghana frequently name their children after the day of the week they were born and the order in which they were born. These "day names" have further meanings concerning the soul and character of the person. Middle names have considerably more variety and can refer to their birth order, twin status, or an ancestor's middle name.<br>
+              <h2 id="h2-3">About Akan Names.</h2> 
+              <p>The Akan people of Ghana frequently name their children after the day of the week they were born and the order in which they were born. These "day names" have further meanings concerning the soul and character of the person. Middle names have considerably more variety and can refer to their birth order, twin status, or an ancestor's middle name.<br>
 
-            This naming tradition is shared throughout West Africa and the African diaspora. During the 18th–19th centuries, slaves in the Caribbean from the region that is modern-day Ghana were referred to as Coromantees. Many of the leaders of slave rebellions had "day names" including Cuffy or Kofi, Cudjoe or Kojo, and Quamina or Kwame/Kwamina.<br>
+                This naming tradition is shared throughout West Africa and the African diaspora. During the 18th–19th centuries, slaves in the Caribbean from the region that is modern-day Ghana were referred to as Coromantees. Many of the leaders of slave rebellions had "day names" including Cuffy or Kofi, Cudjoe or Kojo, and Quamina or Kwame/Kwamina.<br>
+                
+                Most Ghanaians have at least one name from this system, even if they also have an English or Christian name. Notable figures with day names include Ghana's first president Kwame Nkrumah and former United Nations Secretary-General Kofi Annan. <br>
+                
+                For more information visit <a href="https://en.wikipedia.org/wiki/Akan_names"><span class="http">https://en.wikipedia.org/wiki/Akan_names</span></a>
+                </p>
+          </div>
+        </div>
+    </div>
+    <div class="bodybg">
+      <div id="body2">
+          <h1 id="h1-2">Welcome to Akan_Web-App</h1>
+          <form name="form" onsubmit="event.preventDefault(); validate()">
+            <p>Fill in the form below up to year only. The Check your <strong>Akan Name</strong> at the bottom of the page.....</p>              
+            <label for="gender">Gender:</label>
+            <p>Male <input type="radio" name="gender" value="Male" class="radio1"> </p> <br>
+            <p>Female <input type="radio" name="gender" value="Female" class="radio2"> </p> <br>
+            <label for="date">Date [1-31]:</label>
+            <input  name="day"  type="text" class="day"> <br>
+            <label for="month">Month [1-12]:</label>
+            <input name="month" type="text" class="month" size="19"> <br>
+            <label for="year">Year [1000 and above]:</label>
+            <input name="year" type="text" class="year"><br>
+            <input type="image" src="images/updategold.jpeg" class="block1" onclick="validate()">
+            <input type="Reset" value="Reset" class="block2">
+            <a>Congratulations! Your Akan Name is: 
+                <marquee direction="down" width="400" height="120" behavior="alternate" style="border:solid">
+                    <input type="text" name="akan" size="30" class="akan"> 
+                </marquee>
+            </a>
+            <p class="dob">Date of birth: <input type="text" name="result1" size="18" > </p>
+            <p class="dow">Day of the week: <input type="text" name="result2" size="18" > </p>
             
-            Most Ghanaians have at least one name from this system, even if they also have an English or Christian name. Notable figures with day names include Ghana's first president Kwame Nkrumah and former United Nations Secretary-General Kofi Annan. <br>
-            
-            For more information visit <a href="https://en.wikipedia.org/wiki/Akan_names"><span class="http">https://en.wikipedia.org/wiki/Akan_names</span></a>
-            </p>
-      </div>
+          </form>
+        </div>
+    </div>
   </body>
 </html>

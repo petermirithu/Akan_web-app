@@ -3,12 +3,11 @@ body {font-family: Verdana, sans-serif;}
 .mySlides {display: none;}
 img {vertical-align: middle;}
 
-
+}
 .slideshow-container {
   width: 100%;
   position: relative;
   margin: auto;
-  margin-top: 10%;
 }
 
 
@@ -54,14 +53,10 @@ img {vertical-align: middle;}
 }
 .head {
   color: gold;
-  margin-top: 10%;
+  margin-top: 4.5%;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-size: 50px;
   text-align: center;
-}
-
-.bd {
-  margin-top: 10%;
 }
 .headtab1 {
   overflow: hidden;
@@ -85,11 +80,13 @@ img {vertical-align: middle;}
   background:gold;
   color: black;
 }
-.body1 {
+.bodybg0 {
   background-image: url("../images/coolsimpl.jpg");
   background-repeat: no-repeat;
   background-size: cover;
-  opacity: 60%;
+}
+#bd{
+  margin-top: 7%;
 }
 .h1-1 {
   color: gold;
@@ -115,31 +112,14 @@ li{
 .get {
   color: greenyellow;
 }
-.headtab2 {    
-  overflow: hidden;
-  position: fixed; 
-  top: 0; 
-  width: 100%;
-  background-image: url(../images/gril.jpg);
-  background-size: cover;
-  background-repeat: no-repeat;
-  z-index: 1;
-  height: 10%;
-}
-.headtab2 a {
-  float: left;
-  display: block;
-  color: #f2f2f2;
-  text-decoration: none;
-}
-.headtab2 a:hover {
-  background:gold;
-  color: black;
-}
-.body2 {
+
+.bodybg {
   background-image: url(../images/coolsimpl.jpg);
   background-repeat: no-repeat;
   background-size: cover;
+}
+
+ 
 }
 .block1 {
   width: 10%;
@@ -193,17 +173,20 @@ form {
   .text {font-size: 11px}
 }
 @media only screen and (max-width: 500px) {
-  .headtab1,.headtab2 {
+  .headtab1 {
     overflow: hidden;
     position: fixed; 
     top: 0; 
     width: 100%;
-    z-index: 1;
-    height: 7%;
+    height: 10%;
+   
   }
   nav{
     width: 20%;
     height: 20%;
+  }
+  .head {
+    margin-top: 11.5%;
   }
   .block2{
     width: 20%;
