@@ -52,6 +52,13 @@ img {vertical-align: middle;}
   animation-name: fade;
   animation-duration: 1.5s;
 }
+.head {
+  color: gold;
+  margin-top: 10%;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 50px;
+  text-align: center;
+}
 
 .bd {
   margin-top: 10%;
@@ -168,12 +175,9 @@ form {
   color: rgb(33, 238, 6);
   background-image: url("../images/jsjqwallpp.jpg");
   width: 100%;
-  font-size: 50px;
-  
+  font-size: 50px;  
 }
-.dob,.dow{
-  float: right;
-}
+
 @-webkit-keyframes fade {
   from {opacity: .4} 
   to {opacity: 1}
