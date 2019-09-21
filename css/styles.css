@@ -8,6 +8,7 @@ img {vertical-align: middle;}
   width: 100%;
   position: relative;
   margin: auto;
+  margin-top: 10%;
 }
 
 
@@ -69,6 +70,29 @@ img {vertical-align: middle;}
 .bd {
   margin-top: 10%;
 }
+.headtab1 {
+  overflow: hidden;
+  position: fixed; 
+  top: 0; 
+  width: 100%;
+  background-image: url(../images/gril.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  z-index: 1;
+  height: 10%;
+}
+.headtab1 a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+.headtab1 a:hover {
+  background:gold;
+  color: black;
+}
 .body1 {
   background-image: url("../images/coolsimpl.jpg");
   background-repeat: no-repeat;
@@ -87,7 +111,7 @@ p{
 .h2-2 {
   color: orangered
 }
-.h2-3 {
+#h2-3 {
   color: rgb(255, 9, 9);
 }
 li{
@@ -96,11 +120,9 @@ li{
 .http {
   color: gold;
 }
-
-* {box-sizing: border-box;}
-body {font-family: Verdana, sans-serif;}
-.mySlides {display: none;}
-img {vertical-align: middle;}
+.get {
+  color: greenyellow;
+}
 
 
 
