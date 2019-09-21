@@ -148,9 +148,19 @@ li{
   background-repeat: no-repeat;
   background-size: cover;
 }
+.block1 {
+  width: 10%;
+  height: 10%;
+}
 
 .block2 {
-  padding-left: 10%; 
+  padding-left: 10%;
+  width: 20%;
+  height: 20%;
+  background-color: black;
+  color: gold;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 30px;
 }
 #h1-2 {
   color: gold;
@@ -168,7 +178,12 @@ form {
   margin: 10px;
 }
 .akan {
-  height: 30px;
+  height: 100px;
   color: gold;
   background-image: url("../images/jsjqwallpp.jpg");
+  width: 50%;
+  font-size: 50px;
+}
+.dob,.dow{
+  float: right;
 }

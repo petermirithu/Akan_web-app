@@ -19,21 +19,20 @@
     <h1 id="h1-2">Welcome to Akan_Web-App</h1>
 
     <form name="form" onsubmit="event.preventDefault(); validate()">
-      <label for="name">Name:</label>
-      <input type="text" name="name" class="name"> <br>
+      <p>Fill in the form below up to year only.</p>              
       <label for="gender">Gender:</label>
       <p>Male <input type="radio" name="gender" value="Male" class="radio1"> </p> <br>
       <p>Female <input type="radio" name="gender" value="Female" class="radio2"> </p> <br>
-      <label for="date">Date:</label>
+      <label for="date">Date [1-31]:</label>
       <input  name="day"  type="text" class="day"> <br>
-      <label for="month">Month:</label>
+      <label for="month">Month [1-12]:</label>
       <input name="month" type="text" class="month" size="19"> <br>
-      <label for="year">Year:</label>
+      <label for="year">Year [1000 and above]:</label>
       <input name="year" type="text" class="year"><br>
-      <input type="image" src="images/updategold.jpeg" width="10%" height="10%" class="block1" onclick="validate()">
-      <!-- <input class="block2" type="image" src="images/resetgold.jpeg" width="10%" height="10%" value="reset"> -->
-      <p>Date of birth: <input type="text" name="result1" size="18" class="dob"> </p>
-      <p>Day of the week: <input type="text" name="result2" size="18" class="dow"> </p>
+      <input type="image" src="images/updategold.jpeg" class="block1" onclick="validate()">
+      <input type="reset" value="reset" class="block2">
+      <p class="dob">Date of birth: <input type="text" name="result1" size="18" > </p>
+      <p class="dow">Day of the week: <input type="text" name="result2" size="18" > </p>
       <p>Congratulations: <input type="text" name="akan" size="30" class="akan"> </p>
     </form>
   </body>

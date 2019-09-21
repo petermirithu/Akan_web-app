@@ -48,7 +48,7 @@ function validate() {
   var val3 = parseInt(form.year.value, 10)
 
   if ((val3 < 1000) || (val3 > year3)) {
-     alert("The year way past whats expected!!!")
+     alert("The year is way past whats expected!!!")
   }
   if (val2 == 1) {
      val2x = 13;
@@ -66,7 +66,6 @@ function validate() {
   var val9 = parseInt(val8/7, 10)
   var val0 = val8-(val9*7)
 
-  var name1 = form.name.value;
   var akanName = ""
   var gender = form.gender.value;
   if (gender==="Male") {
@@ -77,7 +76,7 @@ function validate() {
     alert("Invalid Input!!!")
   }
 
-  form.akan.value =name1+". "+"Your Akan name is: "+akanName
+  form.akan.value =akanName
 
   form.result1.value = months[val2]+" "+form.day.value +", "+form.year.value
   form.result2.value = days[val0]
