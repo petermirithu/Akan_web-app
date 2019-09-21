@@ -179,10 +179,11 @@ form {
 }
 .akan {
   height: 100px;
-  color: gold;
+  color: rgb(250, 7, 68);
   background-image: url("../images/jsjqwallpp.jpg");
-  width: 50%;
+  width: 100%;
   font-size: 50px;
+  
 }
 .dob,.dow{
   float: right;
