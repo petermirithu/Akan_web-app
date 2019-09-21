@@ -4,7 +4,7 @@ function makeArray(n) {
     this[i] = 0;
   }
 }
-days=new makeArray(7);
+days= new makeArray(7);
   days[0]="Sunday"
   days[1]="Monday"
   days[2]="Tuesday"
@@ -13,7 +13,7 @@ days=new makeArray(7);
   days[5]="Friday"
   days[6]="Saturday"
 
-months=new makeArray(12)
+months= new makeArray(12)
  months[0]="January"
  months[1]="February"
  months[2]="March"
@@ -58,8 +58,11 @@ function validate(form) {
     };
     
     var val2x= parseInt(form.month.value, 10)
+    var today = new Date(); 
+    var year3 =today.getFullYear();
+
     var val3= parseInt(form.year.value, 10)
-    if (val3 <1000) {
+    if ((val3 <1000) || (val3 > year3)) {
       alert("The year is past whats expected.")
     };
 
