@@ -18,14 +18,14 @@
 
 ## Behavioral Driven Development
 * The web application starts involves a java script which formula which is:
-  >var val4 = (mm+1)*3)/5, 10)
-  >var val5 = (yy/4, 10)
-  >var val6 = (yy/100, 10)
-  >var val7 = (yy/400, 10)
-  >var val8 = dd+(mm*2)+val4+yy+val5-val6+val7+2
-  >var val9 = (val8/7, 10)
-  >var val0 = val8-(val9*7)
-* The out put which stored in variable "val0" is the used in to compare the gender input of any   user and it the gives the akan name based on day of the week one was born.
+  var code1 = parseInt(((val2x+1)*3)/5, 10)
+  var code2 = parseInt(year1/4, 10)
+  var code3 = parseInt(year1/100, 10)
+  var code4 = parseInt(year1/400, 10)
+  var code5 = day1+(val2x*2)+code1+year1+code2-code3+code4+2
+  var code6 = parseInt(code5/7, 10)
+  var answer = code5-(code6*7)
+* The out put which stored in variable "answer" is the used in to compare the gender input of any   user and it the gives the akan name based on day of the week one was born.
 
 ## Known Bugs
   None  
